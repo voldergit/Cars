@@ -111,6 +111,10 @@ body {
 }
 .car-item-image img {
     vertical-align: bottom;
+    transition: all 0.3s;
+}
+.car-item-image:hover img {
+    transform: scale(1.1);
 }
 .car-item-title {
     font-weight: bold;

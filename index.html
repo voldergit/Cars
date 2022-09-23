@@ -36,7 +36,7 @@
                 легенди та дізнатися, на що вона здатна за межами гоночної траси!
             </div>
             <div class="main-action">
-                <button class="button">Переглянути автомобілі</button>
+                <button class="button" id="main-action">Переглянути автомобілі</button>
             </div>
         </div>
     </div>
@@ -68,7 +68,7 @@
                     </div>
                 </div>
                 <div class="car-item-action">
-                    <button class="button">Забронювати</button>
+                    <button class="button car-button">Забронювати</button>
                 </div>
             </div>
             <div class="car-item">
@@ -94,7 +94,7 @@
                     </div>
                 </div>
                 <div class="car-item-action">
-                    <button class="button">Забронювати</button>
+                    <button class="button car-button">Забронювати</button>
                 </div>
             </div>
             <div class="car-item">
@@ -120,7 +120,7 @@
                     </div>
                 </div>
                 <div class="car-item-action">
-                    <button class="button">Забронювати</button>
+                    <button class="button car-button">Забронювати</button>
                 </div>
             </div>
             <div class="car-item">
@@ -146,7 +146,7 @@
                     </div>
                 </div>
                 <div class="car-item-action">
-                    <button class="button">Забронювати</button>
+                    <button class="button car-button">Забронювати</button>
                 </div>
             </div>
             <div class="car-item">
@@ -172,7 +172,7 @@
                     </div>
                 </div>
                 <div class="car-item-action">
-                    <button class="button">Забронювати</button>
+                    <button class="button car-button">Забронювати</button>
                 </div>
             </div>
             <div class="car-item">
@@ -198,7 +198,7 @@
                     </div>
                 </div>
                 <div class="car-item-action">
-                    <button class="button">Забронювати</button>
+                    <button class="button car-button">Забронювати</button>
                 </div>
             </div>
         </div>
@@ -209,10 +209,10 @@
         <h2 class="sub-title">Дізнатися ціну та забронювати</h2>
         <div class="price-text">Заповніть дані і ми передзвонимо вам для уточнення всіх деталей бронювання</div>
         <form class="price-form" action="">
-            <input type="text" class="price-input" placeholder="Ваше ім'я">
-            <input type="text" class="price-input" placeholder="Ваш телефон">
-            <input type="text" class="price-input" placeholder="Автомобіль, який вас цікавить">
-            <button class="button">Дізнатись ціну</button>
+            <input type="text" class="price-input" id="name" placeholder="Ваше ім'я">
+            <input type="text" class="price-input" id="phone" placeholder="Ваш телефон">
+            <input type="text" class="price-input" id="car" placeholder="Автомобіль, який вас цікавить">
+            <button class="button" id="price-action" type="button">Дізнатись ціну</button>
         </form>
         <img class="price-image" src="images/rolls.png" alt="Rolls">
     </div>
@@ -225,5 +225,6 @@
         <div class="rights">Всі права захищені</div>
     </div>
 </footer>
+<script src="scripts/script.js"></script>
 </body>
 </html>
